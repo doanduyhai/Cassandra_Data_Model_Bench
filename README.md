@@ -20,7 +20,7 @@
  Compile and build the webapp with  `mvn clean package`. The generated `stress-cql3.war` file is in
  the `./target` folder.
 
- Then deploy the webapp to a tomcat. Do not to configure the `on.properties` config file and start the webapp
+ Then deploy the webapp to a tomcat. Do not forget to configure the `on.properties` config file and start the webapp
  with the VM argument `-Don.config.file=<path_to_on.properties>`
 
 ### The data model
