@@ -25,7 +25,7 @@
 
 ### The data model
 
- The data and column families to be bench are referential data, with a tiny size (total < 10Mb).
+ The data and column families to be benched are referential data, with a tiny size (total < 10Mb).
 
  They can be modeled as compact JSON (all the entity is serialized to JSON client-side then saved in C*)
  or in flattened form using as many CQL3 columns as there are fields in the entity
