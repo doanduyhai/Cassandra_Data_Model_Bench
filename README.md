@@ -69,10 +69,10 @@
   * Memory: 32 Gb RAM
   * Disk: 7200 rpm RAID 10. 1Tb of capacity
 
- The bench has been done with **[Gatling]** in **Scala** for its high performance features.
+The bench has been done with **[Gatling]** in **Scala** for its high performance features.
  All **Gatling** scenarios can be found in the folder `gatling_scenarios`.
 
- We ran all scenarios:
+We ran all scenarios:
 
  * during **1 hour**
  * with **1000 users**
@@ -84,7 +84,9 @@
      * loop on those 4 calls during **1 hour** with [100,200] milli secs of pause between each loop
 
 
- We read data using **Thrift** and **CQL3** to eliminate any bias related to either API.
+<br/>
+
+We read data using **Thrift** and **CQL3** to eliminate any bias related to either API.
 
  During the bench, we monitor CPU and disk usage by collecting samples every 10 secs with:
 
@@ -121,7 +123,7 @@
   * 1 partition on node2
   * 0 partition on node3
 
- During the test, we use a RoundRobin load balancing strategy on client side (via Hector/Java driver).
+During the test, we use a RoundRobin load balancing strategy on client side (via Hector/Java driver).
  That explains the difference in term of CPU usage between node1, node2 and node3.
  Basically node1 has the highest CPU usage because it hosts the data, node3 the lowest because it only plays the role of coordinator.
 
