@@ -1,0 +1,25 @@
+CREATE TABLE offers_json (
+   partition_key text,
+   id text,
+   payload text,
+   PRIMARY KEY (partition_key, id));
+
+CREATE TABLE options_json (
+   partition_key text,
+   code text,
+   payload text,
+   PRIMARY KEY (partition_key, code));
+
+
+CREATE TABLE offers_by_country_json (
+   partition_key text,
+   country text,
+   id text,
+   payload text,
+   PRIMARY KEY (partition_key, country,id));
+
+CREATE TABLE option_by_country_json (
+   partition_key text,
+   country text,
+   payload text,
+   PRIMARY KEY (partition_key, country));

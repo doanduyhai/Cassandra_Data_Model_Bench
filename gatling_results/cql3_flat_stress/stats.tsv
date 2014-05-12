@@ -1,0 +1,7 @@
+name	nbRequest	nbRequestOK	nbRequestKO	minResponseTime	minResponseTimeOK	minResponseTimeKO	maxResponseTime	maxResponseTimeOK	maxResponseTimeKO	meanResponseTime	meanResponseTimeOK	meanResponseTimeKO	deviation	deviationOK	deviationKO	percentile1	percentile1OK	percentile1KO	percentile2	percentile2OK	percentile2KO	group1Name	group1Count	group1Percentage	group2Name	group2Count	group2Percentage	group3Name	group3Count	group3Percentage	group4Name	group4Count	group4Percentage	meanNumberOfRequestsPerSecond	meanNumberOfRequestsPerSecondOK	meanNumberOfRequestsPerSecondKO
+Global Information	48570840	48570840	0	0	0	-1	15050	15050	-1	7	7	-1	41	41	-1	30	30	-1	50	50	-1	t < 800 ms	48515058	11	800 ms < t < 1200 ms	54294	0	t > 1200 ms	1488	0	failed	0	0	13454	13454	-1
+/cql3/flat/offers/id	12142710	12142710	0	0	0	-1	15050	15050	-1	9	9	-1	55	55	-1	30	30	-1	60	60	-1	t < 800 ms	12118225	99	800 ms < t < 1200 ms	23714	0	t > 1200 ms	771	0	failed	0	0	3363	3363	-1
+/cql3/flat/offers-by-country/country_iso_code	12142710	12142710	0	0	0	-1	15000	15000	-1	5	5	-1	33	33	-1	20	20	-1	40	40	-1	t < 800 ms	12132769	99	800 ms < t < 1200 ms	9735	0	t > 1200 ms	206	0	failed	0	0	3363	3363	-1
+/cql3/flat/options/code	12142710	12142710	0	0	0	-1	15020	15020	-1	6	6	-1	40	40	-1	20	20	-1	40	40	-1	t < 800 ms	12129216	99	800 ms < t < 1200 ms	13133	0	t > 1200 ms	361	0	failed	0	0	3363	3363	-1
+/cql3/flat/option-by-country/country_iso_code	12142710	12142710	0	0	0	-1	15000	15000	-1	9	9	-1	31	31	-1	30	30	-1	60	60	-1	t < 800 ms	12134848	99	800 ms < t < 1200 ms	7712	0	t > 1200 ms	150	0	failed	0	0	3363	3363	-1
+

@@ -1,0 +1,48 @@
+CREATE TABLE offers_flat(
+	pricing text,
+	display_name text,
+	duration int,
+	features text,
+	feature0_enabled boolean,
+	code text,
+	duration_type text,
+	partition_key text,
+	id text,
+	PRIMARY KEY(partition_key, id));
+
+CREATE TABLE options_flat(
+	feature8_enabled boolean,
+	feature7_count text,
+	feature9_enabled boolean,
+	partition_key text,
+	code text,
+	profile text,
+	countries list<text>,
+	feature10_enabled boolean,
+	PRIMARY KEY(partition_key, code));
+
+
+CREATE TABLE offers_by_country_flat(
+  partition_key text,
+	pricing text,
+	display_name text,
+	duration int,
+	features text,
+	feature0_enabled boolean,
+	code text,
+	duration_type text,
+	country_code_iso text,
+	offer_id text,
+	PRIMARY KEY(partition_key, country_code_iso, offer_id));
+
+CREATE TABLE option_by_country_flat(
+	partition_key text,
+	feature8_enabled boolean,
+	code text,
+	profile text,
+	feature7_count text,
+	feature9_enabled boolean,
+	country_code_iso text,
+	countries list<text>,
+	feature10_enabled boolean,
+	PRIMARY KEY(partition_key,country_code_iso));

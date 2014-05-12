@@ -1,0 +1,23 @@
+create column family offers
+with key_validation_class = UTF8Type
+and comparator = 'CompositeType(UTF8Type)'
+and default_validation_class = UTF8Type
+and comment = 'offers[OFFERS][offer_id]=payload_in_JSON';
+
+create column family offers_by_country
+with key_validation_class = UTF8Type
+and comparator = 'CompositeType(UTF8Type,UTF8Type)'
+and default_validation_class = UTF8Type
+and comment = 'offers_by_country[OFFERS_BY_COUNTRY][country_iso2_code:offer_id]=payload_in_JSON';
+
+create column family options
+with key_validation_class = UTF8Type
+and comparator = 'CompositeType(UTF8Type)'
+and default_validation_class = UTF8Type
+and comment = 'options[OPTIONS][option_code]=payload_in_JSON';
+
+create column family option_by_country
+with key_validation_class = UTF8Type
+and comparator = 'CompositeType(UTF8Type)'
+and default_validation_class = UTF8Type
+and comment = 'option_by_country[OPTION_BY_COUNTRY][country_iso2_code]=payload_in_JSON';

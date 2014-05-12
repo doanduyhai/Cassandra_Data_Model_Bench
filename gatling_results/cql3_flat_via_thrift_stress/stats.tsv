@@ -1,0 +1,7 @@
+name	nbRequest	nbRequestOK	nbRequestKO	minResponseTime	minResponseTimeOK	minResponseTimeKO	maxResponseTime	maxResponseTimeOK	maxResponseTimeKO	meanResponseTime	meanResponseTimeOK	meanResponseTimeKO	deviation	deviationOK	deviationKO	percentile1	percentile1OK	percentile1KO	percentile2	percentile2OK	percentile2KO	group1Name	group1Count	group1Percentage	group2Name	group2Count	group2Percentage	group3Name	group3Count	group3Percentage	group4Name	group4Count	group4Percentage	meanNumberOfRequestsPerSecond	meanNumberOfRequestsPerSecondOK	meanNumberOfRequestsPerSecondKO
+Global Information	50769068	50769068	0	0	0	-1	3060	3060	-1	6	6	-1	29	29	-1	20	20	-1	50	50	-1	t < 800 ms	50735919	15	800 ms < t < 1200 ms	32590	0	t > 1200 ms	559	0	failed	0	0	14063	14063	-1
+/thrift/flat/option-by-country/country_iso_code	12692267	12692267	0	0	0	-1	3050	3050	-1	7	7	-1	26	26	-1	30	30	-1	60	60	-1	t < 800 ms	12686213	99	800 ms < t < 1200 ms	5969	0	t > 1200 ms	85	0	failed	0	0	3516	3516	-1
+/thrift/flat/offers-by-country/country_iso_code	12692267	12692267	0	0	0	-1	3040	3040	-1	3	3	-1	26	26	-1	10	10	-1	30	30	-1	t < 800 ms	12685221	99	800 ms < t < 1200 ms	6922	0	t > 1200 ms	124	0	failed	0	0	3516	3516	-1
+/thrift/flat/offers/id	12692267	12692267	0	0	0	-1	3060	3060	-1	7	7	-1	35	35	-1	30	30	-1	60	60	-1	t < 800 ms	12680099	99	800 ms < t < 1200 ms	11927	0	t > 1200 ms	241	0	failed	0	0	3516	3516	-1
+/thrift/flat/options/code	12692267	12692267	0	0	0	-1	3050	3050	-1	5	5	-1	27	27	-1	20	20	-1	40	40	-1	t < 800 ms	12684386	99	800 ms < t < 1200 ms	7772	0	t > 1200 ms	109	0	failed	0	0	3516	3516	-1
+

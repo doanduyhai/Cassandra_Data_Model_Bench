@@ -1,0 +1,7 @@
+name	nbRequest	nbRequestOK	nbRequestKO	minResponseTime	minResponseTimeOK	minResponseTimeKO	maxResponseTime	maxResponseTimeOK	maxResponseTimeKO	meanResponseTime	meanResponseTimeOK	meanResponseTimeKO	deviation	deviationOK	deviationKO	percentile1	percentile1OK	percentile1KO	percentile2	percentile2OK	percentile2KO	group1Name	group1Count	group1Percentage	group2Name	group2Count	group2Percentage	group3Name	group3Count	group3Percentage	group4Name	group4Count	group4Percentage	meanNumberOfRequestsPerSecond	meanNumberOfRequestsPerSecondOK	meanNumberOfRequestsPerSecondKO
+Global Information	50562592	50562592	0	0	0	-1	7010	7010	-1	4	4	-1	52	52	-1	10	10	-1	20	20	-1	t < 800 ms	50452848	14	800 ms < t < 1200 ms	106006	0	t > 1200 ms	3738	0	failed	0	0	14005	14005	-1
+/thrift/json/option-by-country/country_iso_code	12640648	12640648	0	0	0	-1	7010	7010	-1	4	4	-1	46	46	-1	10	10	-1	20	20	-1	t < 800 ms	12618982	99	800 ms < t < 1200 ms	21080	0	t > 1200 ms	586	0	failed	0	0	3501	3501	-1
+/thrift/json/offers-by-country/country_iso_code	12640648	12640648	0	0	0	-1	7010	7010	-1	4	4	-1	47	47	-1	10	10	-1	20	20	-1	t < 800 ms	12618230	99	800 ms < t < 1200 ms	21751	0	t > 1200 ms	667	0	failed	0	0	3501	3501	-1
+/thrift/json/offers/id	12640648	12640648	0	0	0	-1	7010	7010	-1	5	5	-1	65	65	-1	10	10	-1	30	30	-1	t < 800 ms	12599991	99	800 ms < t < 1200 ms	38974	0	t > 1200 ms	1683	0	failed	0	0	3501	3501	-1
+/thrift/json/options/code	12640648	12640648	0	0	0	-1	7010	7010	-1	4	4	-1	50	50	-1	10	10	-1	20	20	-1	t < 800 ms	12615645	99	800 ms < t < 1200 ms	24201	0	t > 1200 ms	802	0	failed	0	0	3501	3501	-1
+
