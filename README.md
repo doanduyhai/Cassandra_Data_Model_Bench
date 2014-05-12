@@ -127,8 +127,7 @@ During the test, we use a RoundRobin load balancing strategy on client side (via
  That explains the difference in term of CPU usage between node1, node2 and node3.
  Basically node1 has the highest CPU usage because it hosts the data, node3 the lowest because it only plays the role of coordinator.
 
- Interestingly, using **Thrift** API to request **CQL3** data grants the same result, with slighly a little bit less CPU usage (5% max). This
- confirms that the
+ Interestingly, using **Thrift** API to request **CQL3** data grants the same result, with slighly a little bit less CPU usage (5% max). This confirms that the issue is not on the API side.
 
  What we can see is that having flattened data model costs more CPU than having compact data.
 
