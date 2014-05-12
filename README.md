@@ -138,7 +138,7 @@ During the test, we use a RoundRobin load balancing strategy on client side (via
 
  2. The decoding of **`CompositeType`** costs more CPU for **CQL3** data model than for old **Thrift** column family 
 
- 3. Since the Cell type for all **CQL3** table is forced to **`BytesType`** to support any type of data, so ser/deser may have a cost on CPU.
+ 3. Since the Cell type for all **CQL3** table is forced to **`BytesType`** to support any type of data, serialization/de-serialization may have a cost on CPU.
 
 
 
